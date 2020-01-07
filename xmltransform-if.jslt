@@ -1,0 +1,25 @@
+let fullname = .firstname + " " + .middleinitial + " " + .lastname
+let nameparts = [.firstname, .middleinitial, .lastname]
+let phones = .telephones
+
+"<person>\n" 
+"  <fullname>" $fullname "</fullname>\n" 
+"  <nameparts>" (for ($nameparts) .) "</nameparts>\n" 
+"  <phones>\n"
+
+/*
+ * Only include phone where number is not local.
+ */
+(for ($phones) 
+  (if (size(.number) > 7) 
+    "    <phone>\n"
+    "      <type>" .type "</type>\n" 
+    "      <number>" .number "</number>\n" 
+    "    </phone>\n"
+  else 
+    ""
+  )
+)
+
+"  </phones>\n"
+"</person>"

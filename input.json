@@ -1,0 +1,19 @@
+{
+	"firstname": "John",
+	"middleinitial": "F",
+	"lastname": "Kennedy",
+	"ssn": "123456789",
+	"address": {
+		"street": "123 Main Street",
+		"city": "Hyannis",
+		"state": "MA"
+	},
+	"telephones": [
+		{ "type": "home", 
+		  "number": "9874567"
+		},
+		{ "type": "mobile", 
+		  "number": "6171234567"
+		}
+	]
+}

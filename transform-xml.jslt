@@ -1,0 +1,40 @@
+/****************************************************************************************************
+ * Transform sample to XML
+ ****************************************************************************************************/
+
+/** 
+ * Converts a 9-digit number to 999-99-9999 format.
+ * @param str String in the format 999999999
+ */
+def formatSocialSecurityNumber(str)
+	if (size($str) == 9)
+		let first  = substring($str, 0, 3)
+		let second = substring($str, 3, 5)
+		let third  = substring($str, 5, 9)
+		$first + "-" + $second + "-" + $third
+	else
+		$str
+;
+		
+// Variable definitions
+let fullname = .firstname + " " + .middleinitial + " " + .lastname;
+let nameparts = [.firstname, .middleinitial, .lastname];
+let phones = .telephones;
+
+// Template output
+"<person>\n"
+"  <firstname>" .firstname "</firstname>\n"
+"  <middleinitial>" .middleinitial "</middleinitial>\n"
+"  <lastname>" .lastname "</lastname>\n"
+"  <fullname>" $fullname "</fullname>\n"
+"  <ssn>" formatSocialSecurityNumber(.ssn) "</ssn>\n"
+"  <phones>\n"
+(for ($phones) 
+  "    <phone>\n"
+  "      <type>" .type "</type>\n"
+  "      <number>" .number "</number>\n"
+  "    </phone>\n"
+)
+"  </phones>\n"
+"</person>"
+

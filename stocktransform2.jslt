@@ -1,0 +1,20 @@
+/*
+***************************************************************************************************
+Stock quote demo - output transform
+***************************************************************************************************
+Transforms the JSON event object to produce a delimited file.
+***************************************************************************************************
+*/
+/Event/EventData/Requestor +
+"|" +
+.Event.EventData.Timestamp +
+(for (.Event.WorkNode.quoteResponse) 
+    "|" +
+    .result.symbol +
+    "/" +
+    .result.regularMarketPrice +
+    "/" +
+    .result.preMarketPrice +
+    "/" +
+    .result.regularMarketChange
+)

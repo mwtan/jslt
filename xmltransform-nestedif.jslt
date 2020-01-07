@@ -1,0 +1,28 @@
+let fullname = .firstname + " " + .middleinitial + " " + .lastname
+let nameparts = [.firstname, .middleinitial, .lastname]
+let phones = .telephones
+
+"<person>\n"
+"  <fullname>" + $fullname + "</fullname>\n"
+"  <nameparts>" (for ($nameparts) .) "</nameparts>\n"
+
+"  <phones>\n"
+(for ($phones) 
+  "    <phone>\n"
+  "      <type>" .type "</type>\n"
+  "      <number>" .number "</number>\n"
+  // Derive a location element
+  (if (.type == "home")
+    "      <location>Cape Cod</location>\n"
+  else 
+    if (.type == "mobile")
+      "      <location>Unites States</location>\n"
+	
+	else
+      "      <location>Who knows...</location>\n"
+  )
+  "    </phone>\n"
+)
+"  </phones>\n"
+
+"</person>"

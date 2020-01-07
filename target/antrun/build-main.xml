@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <exec executable="cmd.exe">
+    <arg line="/c copy build\javacc\com\schibsted\spt\data\jslt\parser\* src\main\java\com\schibsted\spt\data\jslt\parser"/>
+  </exec>
+</target>
+</project>

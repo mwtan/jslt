@@ -1,0 +1,187 @@
+{
+	"Event": {
+		"EventHeader": {
+			"EventID": "123456",
+			"SysOriginName": "Will",
+			"BatchGroupID": "",
+			"EventRegID": "1000",
+			"BatchRecordCount": "0"
+		},
+		"EventData": {
+			"Requestor": "Will",
+			"Timestamp": "2019-12-17 10:30:12",
+			"Symbols": {
+				"Symbol": [
+					"FB",
+					"AAPL",
+					"NFLX",
+					"GOOG"
+				]
+			}
+		},
+		"WorkNode": {
+			"quoteResponse": [
+				{
+					"result": {
+						"fullExchangeName": "NasdaqGS",
+						"symbol": "FB",
+						"gmtOffSetMilliseconds": "-18000000",
+						"language": "en-US",
+						"regularMarketTime": "1577811013",
+						"regularMarketChangePercent": "0.029351577",
+						"quoteType": "EQUITY",
+						"preMarketChangePercent": "-0.102738",
+						"tradeable": "true",
+						"preMarketPrice": "204.2",
+						"regularMarketPreviousClose": "204.41",
+						"exchangeTimezoneName": "America/New_York",
+						"esgPopulated": "false",
+						"regularMarketChange": "0.05999756",
+						"exchangeDataDelayedBy": "0",
+						"exchangeTimezoneShortName": "EST",
+						"regularMarketPrice": "204.47",
+						"marketState": "REGULAR",
+						"regularMarketVolume": "3319553",
+						"market": "us_market",
+						"preMarketChange": "-0.210007",
+						"quoteSourceName": "Nasdaq Real Time Price",
+						"pageViews": {
+							"longTermTrend": "UP",
+							"shortTermTrend": "DOWN",
+							"midTermTrend": "UP"
+						},
+						"priceHint": "2",
+						"sourceInterval": "15",
+						"exchange": "NMS",
+						"region": "US",
+						"shortName": "Facebook, Inc.",
+						"triggerable": "true",
+						"preMarketTime": "1577802599",
+						"longName": "Facebook, Inc."
+					},
+					"error": "null"
+				},
+				{
+					"result": {
+						"fullExchangeName": "NasdaqGS",
+						"symbol": "AAPL",
+						"gmtOffSetMilliseconds": "-18000000",
+						"language": "en-US",
+						"regularMarketTime": "1577811011",
+						"regularMarketChangePercent": "0.22640082",
+						"quoteType": "EQUITY",
+						"preMarketChangePercent": "-0.56943",
+						"tradeable": "true",
+						"preMarketPrice": "289.86",
+						"regularMarketPreviousClose": "291.52",
+						"exchangeTimezoneName": "America/New_York",
+						"esgPopulated": "false",
+						"regularMarketChange": "0.66000366",
+						"exchangeDataDelayedBy": "0",
+						"exchangeTimezoneShortName": "EST",
+						"regularMarketPrice": "292.18",
+						"marketState": "REGULAR",
+						"regularMarketVolume": "10269843",
+						"market": "us_market",
+						"preMarketChange": "-1.66",
+						"quoteSourceName": "Nasdaq Real Time Price",
+						"pageViews": {
+							"longTermTrend": "UP",
+							"shortTermTrend": "NEUTRAL",
+							"midTermTrend": "UP"
+						},
+						"priceHint": "2",
+						"sourceInterval": "15",
+						"exchange": "NMS",
+						"region": "US",
+						"shortName": "Apple Inc.",
+						"triggerable": "true",
+						"preMarketTime": "1577802599",
+						"longName": "Apple Inc."
+					},
+					"error": "null"
+				},
+				{
+					"result": {
+						"fullExchangeName": "NasdaqGS",
+						"symbol": "NFLX",
+						"gmtOffSetMilliseconds": "-18000000",
+						"language": "en-US",
+						"regularMarketTime": "1577810995",
+						"regularMarketChangePercent": "0.077325165",
+						"quoteType": "EQUITY",
+						"preMarketChangePercent": "-0.343319",
+						"tradeable": "true",
+						"preMarketPrice": "322.2",
+						"regularMarketPreviousClose": "323.31",
+						"exchangeTimezoneName": "America/New_York",
+						"esgPopulated": "false",
+						"regularMarketChange": "0.25",
+						"exchangeDataDelayedBy": "0",
+						"exchangeTimezoneShortName": "EST",
+						"regularMarketPrice": "323.56",
+						"marketState": "REGULAR",
+						"market": "us_market",
+						"regularMarketVolume": "1655567",
+						"preMarketChange": "-1.10999",
+						"quoteSourceName": "Nasdaq Real Time Price",
+						"pageViews": {
+							"longTermTrend": "UP",
+							"shortTermTrend": "UP",
+							"midTermTrend": "UP"
+						},
+						"priceHint": "2",
+						"exchange": "NMS",
+						"sourceInterval": "15",
+						"region": "US",
+						"shortName": "Netflix, Inc.",
+						"triggerable": "true",
+						"preMarketTime": "1577801828",
+						"longName": "Netflix, Inc."
+					},
+					"error": "null"
+				},
+				{
+					"result": {
+						"fullExchangeName": "NasdaqGS",
+						"symbol": "GOOG",
+						"gmtOffSetMilliseconds": "-18000000",
+						"language": "en-US",
+						"regularMarketTime": "1577811010",
+						"regularMarketChangePercent": "-0.18485868",
+						"quoteType": "EQUITY",
+						"preMarketChangePercent": "-0.2350064",
+						"tradeable": "true",
+						"preMarketPrice": "1333.0",
+						"regularMarketPreviousClose": "1336.14",
+						"exchangeTimezoneName": "America/New_York",
+						"esgPopulated": "false",
+						"regularMarketChange": "-2.4699707",
+						"exchangeDataDelayedBy": "0",
+						"exchangeTimezoneShortName": "EST",
+						"regularMarketPrice": "1333.67",
+						"marketState": "REGULAR",
+						"regularMarketVolume": "308389",
+						"market": "us_market",
+						"preMarketChange": "-3.1400146",
+						"quoteSourceName": "Nasdaq Real Time Price",
+						"pageViews": {
+							"longTermTrend": "UP",
+							"shortTermTrend": "DOWN",
+							"midTermTrend": "UP"
+						},
+						"priceHint": "2",
+						"sourceInterval": "15",
+						"exchange": "NMS",
+						"region": "US",
+						"shortName": "Alphabet Inc.",
+						"triggerable": "true",
+						"preMarketTime": "1577800643",
+						"longName": "Alphabet Inc."
+					},
+					"error": "null"
+				}
+			]
+		}
+	}
+}

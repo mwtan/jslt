@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="400" failures="0" name="com.schibsted.spt.data.jslt.QueryTest" time="0.149" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\mtan\workspace\jslt"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\mtan\workspace\jslt"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\mtan\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\tools\apache-maven-3.6.2\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\RSA SecurID Token Common;C:\Program Files\RSA SecurID Token Common;C:\Program Files\Java\jdk1.8.0_231\jre\bin;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\tools\apache-maven-3.6.2\bin;C:\tools\GNUUnix\wbin;C:\Program Files\nodejs\;C:\Users\mtan\AppData\Local\Taurus\bin;C:\tools\gradle\gradle-6.0.1\bin;C:\Users\mtan\AppData\Local\Microsoft\WindowsApps;C:\Users\mtan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mtan\AppData\Local\Programs\Git\cmd;C:\Users\mtan\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\tools\apache-maven-3.6.2\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\tools\apache-maven-3.6.2\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\mtan"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="mtan"/>
+    <property name="java.class.path" value="C:\tools\apache-maven-3.6.2\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_231\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_231\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\tools\apache-maven-3.6.2\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[0]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[1]" time="0.003"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[2]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[3]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[4]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[5]" time="0.002"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[6]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[7]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[8]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[9]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[10]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[11]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[12]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[13]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[14]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[15]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[16]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[17]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[18]" time="0.002"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[19]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[20]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[21]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[22]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[23]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[24]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[25]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[26]" time="0.002"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[27]" time="0.002"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[28]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[29]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[30]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[31]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[32]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[33]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[34]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[35]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[36]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[37]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[38]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[39]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[40]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[41]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[42]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[43]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[44]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[45]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[46]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[47]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[48]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[49]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[50]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[51]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[52]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[53]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[54]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[55]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[56]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[57]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[58]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[59]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[60]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[61]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[62]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[63]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[64]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[65]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[66]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[67]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[68]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[69]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[70]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[71]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[72]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[73]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[74]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[75]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[76]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[77]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[78]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[79]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[80]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[81]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[82]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[83]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[84]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[85]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[86]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[87]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[88]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[89]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[90]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[91]" time="0.002"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[92]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[93]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[94]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[95]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[96]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[97]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[98]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[99]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[100]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[101]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[102]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[103]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[104]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[105]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[106]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[107]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[108]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[109]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[110]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[111]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[112]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[113]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[114]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[115]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[116]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[117]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[118]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[119]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[120]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[121]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[122]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[123]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[124]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[125]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[126]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[127]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[128]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[129]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[130]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[131]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[132]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[133]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[134]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[135]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[136]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[137]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[138]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[139]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[140]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[141]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[142]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[143]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[144]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[145]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[146]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[147]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[148]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[149]" time="0.002"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[150]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[151]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[152]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[153]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[154]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[155]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[156]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[157]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[158]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[159]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[160]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[161]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[162]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[163]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[164]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[165]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[166]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[167]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[168]" time="0.002"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[169]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[170]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[171]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[172]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[173]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[174]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[175]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[176]" time="0.006"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[177]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[178]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[179]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[180]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[181]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[182]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[183]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[184]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[185]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[186]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[187]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[188]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[189]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[190]" time="0.002"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[191]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[192]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[193]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[194]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[195]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[196]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[197]" time="0.003"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[198]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[199]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[200]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[201]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[202]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[203]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[204]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[205]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[206]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[207]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[208]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[209]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[210]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[211]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[212]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[213]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[214]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[215]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[216]" time="0.003"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[217]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[218]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[219]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[220]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[221]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[222]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[223]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[224]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[225]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[226]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[227]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[228]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[229]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[230]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[231]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[232]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[233]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[234]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[235]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[236]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[237]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[238]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[239]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[240]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[241]" time="0.002"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[242]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[243]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[244]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[245]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[246]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[247]" time="0.007"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[248]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[249]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[250]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[251]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[252]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[253]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[254]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[255]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[256]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[257]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[258]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[259]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[260]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[261]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[262]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[263]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[264]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[265]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[266]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[267]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[268]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[269]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[270]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[271]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[272]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[273]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[274]" time="0.003"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[275]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[276]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[277]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[278]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[279]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[280]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[281]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[282]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[283]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[284]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[285]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[286]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[287]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[288]" time="0.002"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[289]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[290]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[291]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[292]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[293]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[294]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[295]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[296]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[297]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[298]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[299]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[300]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[301]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[302]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[303]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[304]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[305]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[306]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[307]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[308]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[309]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[310]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[311]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[312]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[313]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[314]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[315]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[316]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[317]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[318]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[319]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[320]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[321]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[322]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[323]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[324]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[325]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[326]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[327]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[328]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[329]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[330]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[331]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[332]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[333]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[334]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[335]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[336]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[337]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[338]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[339]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[340]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[341]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[342]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[343]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[344]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[345]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[346]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[347]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[348]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[349]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[350]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[351]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[352]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[353]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[354]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[355]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[356]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[357]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[358]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[359]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[360]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[361]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[362]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[363]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[364]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[365]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[366]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[367]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[368]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[369]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[370]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[371]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[372]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[373]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[374]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[375]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[376]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[377]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[378]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[379]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[380]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[381]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[382]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[383]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[384]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[385]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[386]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[387]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[388]" time="0"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[389]" time="0.002"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[390]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[391]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[392]" time="0.002"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[393]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[394]" time="0.002"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[395]" time="0.002"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[396]" time="0.002"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[397]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[398]" time="0.001"/>
+  <testcase classname="com.schibsted.spt.data.jslt.QueryTest" name="check[399]" time="0"/>
+</testsuite>
